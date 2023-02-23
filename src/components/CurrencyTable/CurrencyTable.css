@@ -1,0 +1,26 @@
+.currency-values {
+    display: flex;
+}
+.currency-values li {
+    font-size: 20px;
+}
+.currency-values li:not(:last-child) {
+    margin-right: 70px;
+}
+.currency-values li span:first-child {
+    color: var(--green);
+    margin-right: 15px;
+}
+@media (max-width: 999px) {
+    .currency-values {
+        flex-direction: column;
+    }
+    .currency-values li {
+        font-size: 20px;
+        width: 100%;
+    }
+    .currency-values li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

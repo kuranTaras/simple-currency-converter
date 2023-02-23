@@ -1,0 +1,25 @@
+.exchanger {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 200px;
+    align-items: end;
+    margin-top: 50px;
+}
+.label {
+    display: flex;
+}
+.input-exchanger {
+    margin-bottom: 0;
+}
+@media (max-width: 1440px) {
+    .exchanger {
+        grid-gap: 70px;
+    }
+}
+@media (max-width: 759px) {
+    .exchanger {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
